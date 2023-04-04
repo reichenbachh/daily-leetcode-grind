@@ -11,5 +11,3 @@ function reverseString(s) {
     right--;
   }
 }
-
-reverseString("Wilderness");
