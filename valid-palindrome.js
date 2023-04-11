@@ -9,6 +9,7 @@
  */
 
 function validPalindrome(s) {
+  //we remove all non alphabtes from string and loop through using pointers to compare letters at opposite ends of the string
   let sourceString = s.replace(/[^A-Za-z0-9]/g, "");
   let right = sourceString.length - 1;
   let left = 0;

@@ -1,4 +1,5 @@
 function reverseString(s) {
+  //we use a left and right pointer to swap out the characters individually
   let right = s.length;
   let left = 0;
 
